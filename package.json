@@ -1,10 +1,10 @@
 {
-  "name": "trade-x-ai-data-collector",
+  "name": "quintus-data-collector",
   "version": "1.0.0",
-  "description": "24/7 data collection service for TRADE X AI",
-  "main": "collector_server.js",
+  "description": "Data collector for Quintus Ultra",
+  "main": "server.js",
   "scripts": {
-    "start": "node collector_server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
