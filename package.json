@@ -4,7 +4,7 @@
   "description": "Data collector for Quintus Ultra",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./server.js"
   },
   "author": "",
   "license": "ISC",
