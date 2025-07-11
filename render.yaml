@@ -1,0 +1,19 @@
+# render.yaml
+# This file tells Render how to build and deploy your service.
+# It should be placed in the root directory of your GitHub repository.
+
+services:
+  # This is a web service
+  - type: web
+    # A name for the service
+    name: quintus-data-collector
+    # Use the 'node' environment
+    env: node
+    # The branch to deploy from
+    branch: main
+    # The command to install dependencies
+    buildCommand: "npm install"
+    # The command to start the server. This runs 'node server.js'
+    startCommand: "npm start"
+    # IMPORTANT: Ensure your environment variables (like INTERNAL_API_KEY)
+    # are set in the Render dashboard under the 'Environment' section.
